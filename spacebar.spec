@@ -2,8 +2,8 @@
 #define commit ae62f708713657e9eb8e614a6b1b95613d34ae11
 
 Name:		spacebar
-Version:	21.06
-Release:	%{?snapshot:0.%{snapshot}.}1
+Version:	21.07
+Release:	%{?snapshot:1.%{snapshot}.}1
 Summary:	Instant messenger for Plasma Mobile
 %if 0%{?snapshot}
 Source0:	https://invent.kde.org/plasma-mobile/spacebar/-/archive/master/spacebar-master.tar.bz2
