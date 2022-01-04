@@ -2,7 +2,7 @@
 #define commit ae62f708713657e9eb8e614a6b1b95613d34ae11
 
 Name:		spacebar
-Version:	21.07
+Version:	21.12
 Release:	%{?snapshot:1.%{snapshot}.}1
 Summary:	Instant messenger for Plasma Mobile
 %if 0%{?snapshot}
@@ -22,6 +22,7 @@ BuildRequires:	cmake(Qt5Qml)
 BuildRequires:	cmake(Qt5Quick)
 BuildRequires:	cmake(Qt5Widgets)
 BuildRequires:	cmake(Qt5Sql)
+BuildRequires:	cmake(QCoro)
 BuildRequires:	cmake(KF5Kirigami2)
 BuildRequires:	cmake(KF5I18n)
 BuildRequires:	cmake(KF5People)
@@ -37,6 +38,10 @@ Instant messenger for Plasma Mobile
 %else
 %autosetup -p1
 %endif
+# Make QCoro happy
+export CC=gcc
+export CXX=g++
+
 %cmake_kde5 -G Ninja
 
 %build
