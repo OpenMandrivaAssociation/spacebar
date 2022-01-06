@@ -29,6 +29,8 @@ BuildRequires:	cmake(KF5I18n)
 BuildRequires:	cmake(KF5People)
 BuildRequires:	cmake(KF5Contacts)
 BuildRequires:	cmake(KF5Notifications)
+BuildRequires:	cmake(KF5DBusAddons)
+BuildRequires:	cmake(KF5ModemManagerQt)
 
 %description
 Instant messenger for Plasma Mobile
