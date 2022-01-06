@@ -31,6 +31,7 @@ BuildRequires:	cmake(KF5Contacts)
 BuildRequires:	cmake(KF5Notifications)
 BuildRequires:	cmake(KF5DBusAddons)
 BuildRequires:	cmake(KF5ModemManagerQt)
+BuildRequires:	phonenumber-devel
 
 %description
 Instant messenger for Plasma Mobile
