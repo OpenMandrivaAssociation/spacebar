@@ -1,13 +1,12 @@
 Name:		spacebar
-Version:	22.02
-Release:	%{?snapshot:0.%{snapshot}.}1
+Version:	22.04
+Release:	%{?snapshot:1.%{snapshot}.}1
 Summary:	Instant messenger for Plasma Mobile
 %if 0%{?snapshot}
 Source0:	https://invent.kde.org/plasma-mobile/spacebar/-/archive/master/spacebar-master.tar.bz2
 %else
 Source0:	https://download.kde.org/stable/plasma-mobile/%{version}/%{name}-%{version}.tar.xz
 %endif
-Patch0:		spacebar-21.12-qcoro-0.4.patch
 License:	GPLv3
 Group:		Applications/Productivity
 BuildRequires:	cmake
