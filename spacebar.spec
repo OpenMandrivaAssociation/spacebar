@@ -1,5 +1,5 @@
 Name:		spacebar
-Version:	22.06
+Version:	22.09
 Release:	%{?snapshot:1.%{snapshot}.}1
 Summary:	Instant messenger for Plasma Mobile
 %if 0%{?snapshot}
@@ -28,6 +28,7 @@ BuildRequires:	cmake(KF5Contacts)
 BuildRequires:	cmake(KF5Notifications)
 BuildRequires:	cmake(KF5DBusAddons)
 BuildRequires:	cmake(KF5ModemManagerQt)
+BuildRequires:	pkgconfig(libcares)
 BuildRequires:	phonenumber-devel
 
 %description
