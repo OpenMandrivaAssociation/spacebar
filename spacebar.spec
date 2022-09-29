@@ -32,6 +32,7 @@ BuildRequires:	cmake(KF5ModemManagerQt)
 BuildRequires:	cmake(KF5KIO)
 BuildRequires:	pkgconfig(libcares)
 BuildRequires:	pkgconfig(libcurl)
+BuildRequires:	pkgconfig(libcrypto) >= 3.0.0
 BuildRequires:	phonenumber-devel
 
 %description
