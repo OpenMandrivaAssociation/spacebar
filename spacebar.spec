@@ -14,6 +14,7 @@ BuildRequires:	ninja
 BuildRequires:	cmake(ECM)
 BuildRequires:	cmake(TelepathyQt5)
 BuildRequires:	cmake(Qt5Core)
+BuildRequires:	cmake(Qt5Concurrent)
 BuildRequires:	cmake(Qt5Gui)
 BuildRequires:	cmake(Qt5Qml)
 BuildRequires:	cmake(Qt5Quick)
