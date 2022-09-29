@@ -29,6 +29,7 @@ BuildRequires:	cmake(KF5Contacts)
 BuildRequires:	cmake(KF5Notifications)
 BuildRequires:	cmake(KF5DBusAddons)
 BuildRequires:	cmake(KF5ModemManagerQt)
+BuildRequires:	cmake(KF5KIO)
 BuildRequires:	pkgconfig(libcares)
 BuildRequires:	phonenumber-devel
 
