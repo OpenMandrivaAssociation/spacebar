@@ -1,6 +1,6 @@
 Name:		spacebar
 Version:	23.01.0
-Release:	%{?snapshot:1.%{snapshot}.}1
+Release:	%{?snapshot:1.%{snapshot}.}2
 Summary:	Instant messenger for Plasma Mobile
 %if 0%{?snapshot}
 Source0:	https://invent.kde.org/plasma-mobile/spacebar/-/archive/master/spacebar-master.tar.bz2
