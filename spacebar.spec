@@ -30,6 +30,7 @@ BuildRequires:	cmake(KF6DBusAddons)
 BuildRequires:	cmake(KF6ModemManagerQt)
 BuildRequires:	cmake(KF6KIO)
 BuildRequires:	cmake(KF6KirigamiAddons)
+BuildRequires:	cmake(FutureSQL6)
 BuildRequires:	pkgconfig(libcares)
 BuildRequires:	pkgconfig(libcurl)
 BuildRequires:	pkgconfig(libcrypto) >= 3.0.0
