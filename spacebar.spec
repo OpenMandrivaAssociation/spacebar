@@ -34,6 +34,8 @@ BuildRequires:	cmake(FutureSQL6)
 BuildRequires:	pkgconfig(libcares)
 BuildRequires:	pkgconfig(libcurl)
 BuildRequires:	pkgconfig(libcrypto) >= 3.0.0
+BuildRequires:	pkgconfig(ldap)
+BuildRequires:	pkgconfig(lber)
 BuildRequires:	phonenumber-devel
 
 %description
