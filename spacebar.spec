@@ -1,5 +1,5 @@
 Name:		spacebar
-Version:	6.8.0
+Version:	6.8.1
 Release:	%{?snapshot:0.%{snapshot}.}1
 Summary:	Instant messenger for Plasma Mobile
 %if 0%{?snapshot}
